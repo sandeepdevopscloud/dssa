@@ -11,7 +11,6 @@ key_name = "mykey"
 vpc_security_group_ids = [aws_security_group.demo-sg.id]
 tags = {
 Name = "terraform"
-Environment = "dev"
 }
 }
 
