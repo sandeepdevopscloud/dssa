@@ -1,5 +1,5 @@
 resource "aws_security_group" "demo-sg" {
-name = "terraform-sg"
+name = "new-sg"
 description = "allowing all the ssh,http,and all"
 ingress {
 description = "allowing ssh"
